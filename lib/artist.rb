@@ -27,13 +27,4 @@ class Artist
     Song.all.count
   end
   
-  def artist_name
-    songs
-    if songs == name
-      name
-    else
-      nil
-    end
-  end
-  
 end
